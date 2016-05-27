@@ -1,4 +1,6 @@
 # postcss-uncss
+[![npm](https://img.shields.io/npm/v/postcss-uncss.svg?maxAge=2592000)](https://www.npmjs.com/package/postcss-uncss)
+[![npm](https://img.shields.io/npm/l/postcss-uncss.svg?maxAge=2592000)](https://github.com/RyanZim/postcss-uncss/blob/master/LICENSE)
 
 Use [giakki/uncss](https://github.com/giakki/uncss) as a [PostCSS](https://github.com/postcss/postcss) plugin.
 
