@@ -16,9 +16,13 @@ See the [UnCSS](https://github.com/giakki/uncss) docs for more information.
 
 ## Installation
 
+postcss-uncss specifies UnCSS as a [peerDependency](https://docs.npmjs.com/files/package.json#peerdependencies), so you will have to install UnCSS as well.
+
 ```bash
-npm install postcss-uncss
+npm install postcss-uncss uncss
 ```
+
+postcss-uncss' MAJOR & MINOR version numbers correspond to UnCSS' version numbers; however, the PATCH version number may differ.
 
 ## Usage
 
