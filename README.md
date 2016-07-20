@@ -8,6 +8,32 @@ Use [giakki/uncss](https://github.com/giakki/uncss) as a [PostCSS](https://githu
 
 UnCSS is a tool that removes unused CSS from your stylesheets. It works across multiple files and supports Javascript-injected CSS.
 
+### Example:
+
+**html:**
+```html
+<body>
+  <p class="red">Hello World!</p>
+</body>
+```
+
+**css before:**
+```css
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+```
+
+**css after:**
+```css
+.red {
+  color: red;
+}
+```
+
 ### How?
 
 The HTML files are loaded by [PhantomJS](https://github.com/Obvious/phantomjs) and JavaScript is executed. UnCSS filters out selectors that are not found in the HTML files.
