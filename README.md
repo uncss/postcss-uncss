@@ -36,7 +36,7 @@ UnCSS is a tool that removes unused CSS from your stylesheets. It works across m
 
 ### How?
 
-The HTML files are loaded by [PhantomJS](https://github.com/Obvious/phantomjs) and JavaScript is executed. UnCSS filters out selectors that are not found in the HTML files.
+The HTML files are loaded by [jsdom](https://github.com/tmpvar/jsdom) and JavaScript is executed. UnCSS filters out selectors that are not found in the HTML files.
 
 See the [UnCSS](https://github.com/giakki/uncss) docs for more information.
 
