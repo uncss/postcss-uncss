@@ -1,6 +1,6 @@
 {
   "name": "postcss-uncss",
-  "version": "0.15.0",
+  "version": "0.16.1",
   "description": "Use giakki/uncss as a postcss plugin",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/RyanZim/postcss-uncss#readme",
   "peerDependencies": {
-    "uncss": "^0.15.0"
+    "uncss": "^0.16.1"
   }
 }
