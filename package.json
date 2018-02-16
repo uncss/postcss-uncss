@@ -1,14 +1,14 @@
 {
   "name": "postcss-uncss",
   "version": "0.16.1",
-  "description": "Use giakki/uncss as a postcss plugin",
+  "description": "Use uncss as a postcss plugin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RyanZim/postcss-uncss.git"
+    "url": "git+https://github.com/uncss/postcss-uncss.git"
   },
   "keywords": [
     "postcss-plugin",
@@ -17,9 +17,9 @@
   "author": "Ryan Zimmerman <opensrc@ryanzim.com> (http://ryanzim.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RyanZim/postcss-uncss/issues"
+    "url": "https://github.com/uncss/postcss-uncss/issues"
   },
-  "homepage": "https://github.com/RyanZim/postcss-uncss#readme",
+  "homepage": "https://github.com/uncss/postcss-uncss#readme",
   "peerDependencies": {
     "uncss": "^0.16.1"
   }

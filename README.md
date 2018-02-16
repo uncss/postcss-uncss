@@ -1,8 +1,8 @@
 # postcss-uncss
 [![npm](https://img.shields.io/npm/v/postcss-uncss.svg?maxAge=2592000)](https://www.npmjs.com/package/postcss-uncss)
-[![npm](https://img.shields.io/npm/l/postcss-uncss.svg?maxAge=2592000)](https://github.com/RyanZim/postcss-uncss/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/l/postcss-uncss.svg?maxAge=2592000)](https://github.com/uncss/postcss-uncss/blob/master/LICENSE)
 
-Use [giakki/uncss](https://github.com/giakki/uncss) as a [PostCSS](https://github.com/postcss/postcss) plugin.
+Use [uncss](https://github.com/uncss/uncss) as a [PostCSS](https://github.com/postcss/postcss) plugin.
 
 ## About
 
@@ -38,7 +38,7 @@ UnCSS is a tool that removes unused CSS from your stylesheets. It works across m
 
 The HTML files are loaded by [jsdom](https://github.com/tmpvar/jsdom) and JavaScript is executed. UnCSS filters out selectors that are not found in the HTML files.
 
-See the [UnCSS](https://github.com/giakki/uncss) docs for more information.
+See the [UnCSS](https://github.com/uncss/uncss) docs for more information.
 
 ## Installation
 
