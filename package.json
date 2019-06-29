@@ -1,6 +1,6 @@
 {
   "name": "postcss-uncss",
-  "version": "0.16.1",
+  "version": "0.17.0",
   "description": "Use uncss as a postcss plugin",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/uncss/postcss-uncss#readme",
   "peerDependencies": {
-    "uncss": "^0.16.1"
+    "uncss": "^0.17.0"
   }
 }
